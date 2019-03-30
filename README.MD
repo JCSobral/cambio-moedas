@@ -2,7 +2,6 @@
 
 ![Aplicação](Logo-Python.png)
 
-
 # Objetivos
 Esta aplicação é destinada ao uso de um API para consulta de moedas, da biblioteca do Fixer.
 
