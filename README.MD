@@ -1,26 +1,25 @@
-# Projeto: Site PsicoLÓGICA
+# Projeto: Cambio de Moedas
 
-![Site](img/capa-site.png)
+![Aplicação](Logo-Python.png)
 
 
 # Objetivos
-Este site é destinado à divulgação de profissionais psicanalistas.
+Esta aplicação é destinada ao uso de um API para consulta de moedas, da biblioteca do Fixer.
 
-  - Descrição do método de trabalho
-  - Apresentação dos profissionais responsáveis
-  - Referências sobre os precursores da Psicanálise
+  - Valores de moedas de todo o mundo
+  - Consulta em tempo real
+  - Conversão para valores em Reais
 
 # Informações Gerais
 
-  - Link do site: [PsicoLÓGICA](www.psicologica.psc.br)
   - Desenvolvedor: Juan Sobral
-  - Data de início do desenvolvimento: 17/02/2019
+  - Data de início do desenvolvimento: 30/03/2019
   - Versão: 1.0.0
-  - Última atualização: 17/02/2019
+  - Última atualização: 30/03/2019
   
 # Funcionalidades
 
-  - Marcação de consulta
-  - Envio de mensagem para o whatsapp
-  - Acesso ao endereço do consultório pelo Google Maps
-  - Acesso a redes sociais: Twitter, Facebook, Instagram
+  - Consultas em tempo real
+  - Conversão de moedas
+  - Principais moedas do mundo
+  
