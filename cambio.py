@@ -5,6 +5,8 @@ print("")
 
 import requests
 import json
+import pandas as pd
+import decimal
 
 url = "http://data.fixer.io/api/latest?access_key=4269a27be188915e860139581dbb8789"
 print("Acessando base de dados...")
@@ -20,15 +22,16 @@ if response .status_code == 200:
     dados = response.json()
     day = dados['date']
     
-    euro_real = dados['rates']['BRL'] / dados['rates']['EUR']
-    dollar_real = dados['rates']['BRL'] / dados['rates']['USD']
-    bitcoin_real = dados['rates']['BRL'] / dados['rates']['BTC']
+    euro_real = round(dados['rates']['BRL'] / dados['rates']['EUR'], 2)
+    dollar_real = round(dados['rates']['BRL'] / dados['rates']['USD'], 2)
+    bitcoin_real = round(dados['rates']['BRL'] / dados['rates']['BTC'], 2)
     
     print("")
     print("Dados do dia: %s/%s/%s" % (day[8:], day[5:7], day[0:4]))
-    print("1 Euro =    R$ " "%.2f" % euro_real)
-    print("1 Dollar =  R$ ""%.2f" % dollar_real)
-    print("1 Bitcoin = R$ ""%.2f" % bitcoin_real)
+    print("1 Euro =    R$ " "%.3f" % euro_real)
+    print("1 Dollar =  R$ ""%.3f" % dollar_real)
+    print("1 Bitcoin = R$ ""%.3f" % bitcoin_real)
+
 else:
     print("Site com problemas!")
 
