@@ -26,7 +26,7 @@ Conversão de moedas para valores em Reais.
 
   
 # API Utilizada
-[FIXER.IO](https://fixer.io/)
+Para a captação dos dados de moedas em tempo real foi utilizada a API: [FIXER.IO](https://fixer.io/)
 
 # Bibliotecas para o funcionamento do script
 ```sh
