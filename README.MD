@@ -22,7 +22,7 @@ Conversão de moedas para valores em Reais.
   - Principais moedas do mundo
   - Exportação para arquivo CSV (excel), como por exemplo:
 
-  ![Aplicação](Logo-Python.png)
+  ![Aplicação](saida_csv.png)
 
   
 # API Utilizada
