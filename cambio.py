@@ -17,3 +17,27 @@ if response .status_code == 200:
     print("1 Bitcoin = R$ ""%.2f" % bitcoin_real)
 else:
     print("Site com problemas!")
+
+
+
+# ATUALIZANDO A APLICAÇÃO DO PYTHON, NO GITHUB, APÓS ALTERAÇÕES:
+
+  # Realizar alterações, normalmente, no código
+
+  # Entrar no Git (botão direito sobre a pasta e selecionar Git Bash)
+
+  # Digitar "git status"
+
+  # Verificar se os arquivos alterados aparecem em vermelho (ok, foram alterados)
+
+  # Digitar "git add .", para salvar alterações no computador
+
+  # Digitar "git status"
+
+  # Verificar se os arquivos alterados aparecem em verde (ok, foram carregados no git)
+
+  # Digitar " git commit -m 'Inserir entre aspas o texto a respeito das alterações feitas"
+
+  # Digitar "git push origin master", para enviar para o site do GitHub
+
+  # Encontrar o histórico de alterações no Git Hub
