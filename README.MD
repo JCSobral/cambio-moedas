@@ -2,6 +2,7 @@
 
 ![Aplicação](Logo-Python.png)
 
+
 # Informações Gerais
 
   - Desenvolvedor: Juan Sobral
@@ -9,10 +10,12 @@
   - Versão: 1.0.1
   - Última atualização: 31/03/2019
 
+
 # Objetivo
 Esta aplicação é destinada à consulta de cambio de moedas, a partir da biblioteca API do Fixer.
 
 Conversão de moedas para valores em Reais.
+
 
 # Funcionalidades
 
@@ -27,6 +30,7 @@ Conversão de moedas para valores em Reais.
   
 # API Utilizada
 Para a captação dos dados de moedas em tempo real foi utilizada a API: [FIXER.IO](https://fixer.io/)
+
 
 # Bibliotecas para o funcionamento do script
 ```sh
