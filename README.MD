@@ -9,6 +9,9 @@ Esta aplicação é destinada ao uso de um API para consulta de moedas, da bibli
   - Consulta em tempo real
   - Conversão para valores em Reais
 
+# API Utilizada
+[FIXER.IO](https://fixer.io/)
+
 # Informações Gerais
 
   - Desenvolvedor: Juan Sobral
