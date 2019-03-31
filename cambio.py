@@ -1,12 +1,11 @@
-print("")
-print("")
-print("### CAMBIO DE MOEDAS EM TEMPO REAL ###")
-print("")
-
 import requests
 import json
 import pandas as pd
 import decimal
+print("")
+print("")
+print("### CAMBIO DE MOEDAS EM TEMPO REAL ###")
+print("")
 
 url = "http://data.fixer.io/api/latest?access_key=4269a27be188915e860139581dbb8789"
 print("Acessando base de dados...")
@@ -31,6 +30,11 @@ if response .status_code == 200:
     print("1 Euro =    R$ " "%.3f" % euro_real)
     print("1 Dollar =  R$ ""%.3f" % dollar_real)
     print("1 Bitcoin = R$ ""%.3f" % bitcoin_real)
+
+    df = pd.DataFrame({'Moedas': ['Euro', 'Dollar', 'Bitcoin'], 'Valores (R$)': [euro_real, dollar_real, bitcoin_real]})
+    df.to_csv("valores.csv", index=False, sep=";")
+
+    print("Arquivo *.csv exportado com sucesso, para a pasta do projeto!")
 
 else:
     print("Site com problemas!")
